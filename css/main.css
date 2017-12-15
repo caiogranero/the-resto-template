@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'AnandaCustom'; /*a name to be used later*/
+    src: url('../font/ananda.ttf'); /*URL to font*/
+}
+
+#hero-background-img {
+    background-image: url('../img/hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.hero-text {
+    font-family: 'AnandaCustom';
+    text-transform: none;
+    font-size: 30px;
+}
+
+.navbar-item,
+.title,
+.subtitle,
+.hero-body,
+.navbar-burger span {
+    text-transform: uppercase;
+    color: #f0eded;
+    text-shadow:  2px 2px 2px #333;
+}
+
+a.navbar-item.is-active {
+    color: #ced4ce;
+    font-weight: 500;
+}
+
+.title {
+    letter-spacing: 5px;
+}
+
+.subtitle {
+    font-size: 15px;
+    margin-top: 15px;
+    font-variant: small-caps;
+    letter-spacing: 5px;
+}
+
+.navbar-item {
+    font-size:14px;
+    letter-spacing: 1px;
+}
+
+.pretitle {
+    letter-spacing: 2px;
+    font-family: 'AnandaCustom';
+    font-size: 30px;
+    color: #eabd84;
+    font-style: italic;
+    text-shadow:  2px 2px 3px #5d5d5d;
+    text-transform: none;
+}
+
+.hero-body .button {
+    margin-top: 15px;
+    border: 0px;
+    font-variant: small-caps;
+    text-transform: uppercase;
+    border-radius: 30px;
+    text-shadow: initial;
+    font-weight: 500;
+    height: 40px;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
